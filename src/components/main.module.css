@@ -1,0 +1,70 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerblock {
+    border: 1px solid lightgray;
+    box-shadow: 5px darkgray;
+    display: flex;
+    justify-content: center;
+    background-color: linen;
+    padding: 5px;
+    height: 10vh;
+
+}
+.mainblock{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color:lightsteelblue;
+}
+.card{
+    display:flex;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    box-shadow: 5px darkgray;
+    border-radius: 10px;
+    background-color:  deepskyblue;
+    color:white;
+}
+.profilename{
+    border-bottom: 2px solid floralwhite;
+}
+
+.footerblock {
+    border: 1px solid lightgray;
+    box-shadow: 5px darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: moccasin;
+    flex-shrink:0;
+    height: 10vh;
+
+}
+.followers{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    width:100%;
+    border-radius:0 0 10px 10px;
+    padding: 5px;
+}
+.folowitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+    flex-grow:1;
+}
+.folowitem:first-child{
+    border-right:1px solid lightgray;
+}
